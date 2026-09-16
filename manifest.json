@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Join Queue - COD4 5v5 SD FPSChallenge",
+  "version": "1",
+  "description": "Auto join queue with ON/OFF badge and toggle for COD4",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://fpschallenge.eu/solo-queue/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
