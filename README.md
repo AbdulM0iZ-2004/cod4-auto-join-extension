@@ -1,6 +1,6 @@
 # COD4 Auto-Join Queue Extension
 
-A Chrome (Manifest V3) extension that automates queue-joining for COD4 5v5 SD matches on [FPSChallenge.eu](https://fpschallenge.eu/solo-queue/).
+A Chrome (Manifest V3) extension that automates queue-joining for COD4 5v5 SD matches on [FPSChallenge.eu](https://fpschallenge.eu/).
 
 It watches the solo-queue page, and when it detects you're idle (not already searching for a match), it automatically clicks **+ PLAY** for you — so you don't have to babysit the tab between games.
 
